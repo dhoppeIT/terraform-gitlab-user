@@ -11,7 +11,13 @@ specify the required variables and run the command `terraform init`.
 
 ```hcl
 module "gitlab_user" {
-  source = "git::ssh://git@gitlab.com:terraform-child-modules1/terraform-gitlab-user.git"
+  source  = "gitlab.com/terraform-child-modules1/terraform-gitlab-user/local"
+  version = "1.0.0"
+
+  name     = "John Doe"
+  username = "jdoe"
+  password = "XKvhCJp9MtwTgwRu" # gitleaks:allow
+  email    = "john.doe@example.com"
 }
 ```
 
