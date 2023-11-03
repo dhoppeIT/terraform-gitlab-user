@@ -31,7 +31,9 @@ No providers.
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_gitlab_user"></a> [gitlab\_user](#module\_gitlab\_user) | ../../ | n/a |
 
 ## Resources
 
@@ -43,5 +45,7 @@ No inputs.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_gitlab_user_id"></a> [gitlab\_user\_id](#output\_gitlab\_user\_id) | The ID of this resource |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
