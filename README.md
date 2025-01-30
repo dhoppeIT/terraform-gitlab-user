@@ -21,19 +21,19 @@ module "gitlab_user" {
 }
 ```
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_gitlab"></a> [gitlab](#requirement\_gitlab) | ~> 16.11 |
+| <a name="requirement_gitlab"></a> [gitlab](#requirement\_gitlab) | ~> 17.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_gitlab"></a> [gitlab](#provider\_gitlab) | ~> 16.11 |
+| <a name="provider_gitlab"></a> [gitlab](#provider\_gitlab) | ~> 17.0 |
 
 ## Modules
 
@@ -68,11 +68,11 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- END_TF_DOCS -->
 
 ## Authors
 
-Created and maintained by [Dennis Hoppe](https://gitlab.com/dhoppeit).
+Created and maintained by [Dennis Hoppe](https://gitlab.com/dhoppeIT).
 
 ## License
 
