@@ -3,6 +3,8 @@ resource "gitlab_user" "this" {
   username          = var.username
   email             = var.email
   can_create_group  = var.can_create_group
+  extern_uid        = var.extern_uid
+  external_provider = var.external_provider
   is_admin          = var.is_admin
   is_external       = var.is_external
   namespace_id      = var.namespace_id
