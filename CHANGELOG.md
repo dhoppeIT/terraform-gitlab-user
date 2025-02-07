@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.3](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/compare/v1.1.2...v1.1.3) (2025-02-07)
+
+### Bug Fixes
+
+* **pre-commit:** Add missing placeholder ([e31bb46](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/commit/e31bb467e5dc2f461c5a9b1742f0673e9a9c794e))
+* **terraform:** Add support for GitLab 17.x ([e27aef0](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/commit/e27aef0b27cc17a4d8d3304dd1b09875ae67993e))
+
 ## [1.1.2](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/compare/v1.1.1...v1.1.2) (2025-01-30)
 
 ### Bug Fixes
