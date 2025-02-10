@@ -14,4 +14,10 @@ resource "gitlab_user" "this" {
   reset_password    = var.reset_password
   skip_confirmation = var.skip_confirmation
   state             = var.state
+
+  lifecycle {
+    ignore_changes = [
+      email
+    ]
+  }
 }
