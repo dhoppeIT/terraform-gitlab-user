@@ -60,7 +60,7 @@ No modules.
 | <a name="input_note"></a> [note](#input\_note) | The note associated to the user | `string` | `null` | no |
 | <a name="input_password"></a> [password](#input\_password) | The password of the user | `string` | `null` | no |
 | <a name="input_projects_limit"></a> [projects\_limit](#input\_projects\_limit) | Number of projects user can create | `number` | `0` | no |
-| <a name="input_reset_password"></a> [reset\_password](#input\_reset\_password) | Send user password reset link | `bool` | `false` | no |
+| <a name="input_reset_password"></a> [reset\_password](#input\_reset\_password) | Send user password reset link | `bool` | `null` | no |
 | <a name="input_skip_confirmation"></a> [skip\_confirmation](#input\_skip\_confirmation) | Whether to skip confirmation | `bool` | `true` | no |
 | <a name="input_state"></a> [state](#input\_state) | The state of the user account | `string` | `"active"` | no |
 | <a name="input_username"></a> [username](#input\_username) | The username of the user | `string` | n/a | yes |

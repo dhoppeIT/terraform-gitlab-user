@@ -70,7 +70,7 @@ variable "projects_limit" {
 
 variable "reset_password" {
   type        = bool
-  default     = false
+  default     = null
   description = "Send user password reset link"
 }
 
