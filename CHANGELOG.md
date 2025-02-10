@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.5](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/compare/v1.1.4...v1.1.5) (2025-02-10)
+
+### Bug Fixes
+
+* **terraform:** Add life cycle to ignore changes to the email attribute ([50bdc48](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/commit/50bdc486ed34bac80184b8260f061bae91ada75b))
+* **terraform:** Use different default value ([05b7bc8](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/commit/05b7bc8aa811876b92282abfd55364e56e7e76a8))
+
 ## [1.1.4](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/compare/v1.1.3...v1.1.4) (2025-02-07)
 
 ### Bug Fixes
