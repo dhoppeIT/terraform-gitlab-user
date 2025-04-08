@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/compare/v1.1.5...v1.2.0) (2025-04-08)
+
+### Features
+
+* **terraform:** Add support for argument force_random_password ([2b001f3](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/commit/2b001f3f6d161183f971e47f679d38302c5054cd))
+
 ## [1.1.5](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/compare/v1.1.4...v1.1.5) (2025-02-10)
 
 ### Bug Fixes
