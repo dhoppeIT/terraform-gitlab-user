@@ -31,6 +31,12 @@ variable "external_provider" {
   description = "The external provider"
 }
 
+variable "force_random_password" {
+  type        = bool
+  default     = false
+  description = "Set user password to a random value"
+}
+
 variable "is_admin" {
   type        = bool
   default     = false
