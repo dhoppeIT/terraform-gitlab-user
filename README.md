@@ -27,13 +27,13 @@ module "gitlab_user" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_gitlab"></a> [gitlab](#requirement\_gitlab) | ~> 17.0 |
+| <a name="requirement_gitlab"></a> [gitlab](#requirement\_gitlab) | ~> 18.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_gitlab"></a> [gitlab](#provider\_gitlab) | ~> 17.0 |
+| <a name="provider_gitlab"></a> [gitlab](#provider\_gitlab) | ~> 18.0 |
 
 ## Modules
 
@@ -51,8 +51,6 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_can_create_group"></a> [can\_create\_group](#input\_can\_create\_group) | Whether to allow the user to create groups | `bool` | `false` | no |
 | <a name="input_email"></a> [email](#input\_email) | The e-mail address of the user | `string` | n/a | yes |
-| <a name="input_extern_uid"></a> [extern\_uid](#input\_extern\_uid) | A specific external authentication provider UID | `string` | `null` | no |
-| <a name="input_external_provider"></a> [external\_provider](#input\_external\_provider) | The external provider | `string` | `null` | no |
 | <a name="input_force_random_password"></a> [force\_random\_password](#input\_force\_random\_password) | Set user password to a random value | `bool` | `false` | no |
 | <a name="input_is_admin"></a> [is\_admin](#input\_is\_admin) | Whether to enable administrative privileges | `bool` | `false` | no |
 | <a name="input_is_external"></a> [is\_external](#input\_is\_external) | Whether a user has access only to some internal or private projects | `bool` | `false` | no |

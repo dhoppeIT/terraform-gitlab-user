@@ -19,18 +19,6 @@ variable "can_create_group" {
   description = "Whether to allow the user to create groups"
 }
 
-variable "extern_uid" {
-  type        = string
-  default     = null
-  description = "A specific external authentication provider UID"
-}
-
-variable "external_provider" {
-  type        = string
-  default     = null
-  description = "The external provider"
-}
-
 variable "force_random_password" {
   type        = bool
   default     = false
