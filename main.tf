@@ -14,6 +14,14 @@ resource "gitlab_user" "this" {
   skip_confirmation     = var.skip_confirmation
   state                 = var.state
 
+  dynamic "timeouts" {
+    for_each = var.timeouts != null ? [var.timeouts] : []
+
+    content {
+      delete = timeouts.value.delete
+    }
+  }
+
   lifecycle {
     ignore_changes = [
       email

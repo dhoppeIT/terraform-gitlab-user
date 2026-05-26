@@ -12,7 +12,7 @@ specify the required variables and run the command `terraform init`.
 ```hcl
 module "gitlab_user" {
   source  = "gitlab.com/terraform-child-modules-48151/terraform-gitlab-user/local"
-  version = "1.2.0"
+  version = "2.0.0"
 
   name     = "John Doe"
   username = "jdoe"
@@ -25,15 +25,15 @@ module "gitlab_user" {
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_gitlab"></a> [gitlab](#requirement\_gitlab) | ~> 18.0 |
+| <a name="requirement_gitlab"></a> [gitlab](#requirement\_gitlab) | ~> 19.0 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
-| <a name="provider_gitlab"></a> [gitlab](#provider\_gitlab) | ~> 18.0 |
+| ---- | ------- |
+| <a name="provider_gitlab"></a> [gitlab](#provider\_gitlab) | ~> 19.0 |
 
 ## Modules
 
@@ -42,13 +42,13 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [gitlab_user.this](https://registry.terraform.io/providers/gitlabhq/gitlab/latest/docs/resources/user) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_can_create_group"></a> [can\_create\_group](#input\_can\_create\_group) | Whether to allow the user to create groups | `bool` | `false` | no |
 | <a name="input_email"></a> [email](#input\_email) | The e-mail address of the user | `string` | n/a | yes |
 | <a name="input_force_random_password"></a> [force\_random\_password](#input\_force\_random\_password) | Set user password to a random value | `bool` | `false` | no |
@@ -62,12 +62,13 @@ No modules.
 | <a name="input_reset_password"></a> [reset\_password](#input\_reset\_password) | Send user password reset link | `bool` | `null` | no |
 | <a name="input_skip_confirmation"></a> [skip\_confirmation](#input\_skip\_confirmation) | Whether to skip confirmation | `bool` | `true` | no |
 | <a name="input_state"></a> [state](#input\_state) | The state of the user account | `string` | `"active"` | no |
+| <a name="input_timeouts"></a> [timeouts](#input\_timeouts) | The timeouts for the user resource | ```object({ delete = optional(string) })``` | `null` | no |
 | <a name="input_username"></a> [username](#input\_username) | The username of the user | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource |
 <!-- END_TF_DOCS -->
 

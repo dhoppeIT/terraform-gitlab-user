@@ -84,3 +84,11 @@ variable "state" {
     error_message = "Valid values are active, deactivated, blocked"
   }
 }
+
+variable "timeouts" {
+  type = object({
+    delete = optional(string)
+  })
+  default     = null
+  description = "The timeouts for the user resource"
+}
